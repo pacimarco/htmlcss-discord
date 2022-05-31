@@ -187,9 +187,7 @@ background-color: lightgray;
     background-color: lightgray;
     padding: 40px 0px;
     height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
 }
 
 .div-sx{
@@ -208,17 +206,32 @@ background-color: lightgray;
     text-align: center;
 }
 
+.title-5{
+    color: black;
+    text-align: center;
+    
+}
+
+.scarica-blue{
+    border-radius: 12px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-color: white; 
+    color: black;
+    background-color: blue;
+    margin: 0 auto;
+    
+}
+
+.sezione-4 .container{
+
+}
+
 .p-4{
     color: black;
     text-align: center;
     margin: 0 auto;
-    align-self: center;
-}
-
-.sezione-4 .container{
-    height: 50%;
-    margin: 0 auto;
-
+    
 }
 
 .div-4{
@@ -227,6 +240,7 @@ background-color: lightgray;
     margin: auto;
     background-image: url(../img/item4-big.svg);
     background-size: cover;
+    
    
     
 

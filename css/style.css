@@ -238,16 +238,12 @@ background-color: lightgray;
     border-radius: 12px;
     padding: 9px 9px;
     font-size: 12px;
-    border-color: white; 
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: rgb(10, 119, 155);
     margin: 0 auto;
     align-self: flex-end;
 }
 
-.sezione-4 .container{
-
-}
 
 .p-4{
     color: black;
@@ -285,6 +281,10 @@ background-color: lightgray;
     display: flex;  
 }
 
+.title-footer{
+    color: rgb(10, 119, 155);
+}
+
 .container-footer-top{
     
     width: 70%;  
@@ -294,15 +294,19 @@ background-color: lightgray;
 }
 
 .nav-1{
-width: 20%;
+width: 25%;
 background-color: salmon;
 border: dotted 1px black;
+display: flex;
+flex-direction: column;
+align-content: space-between;
+
 }
 
 .nav-2{
-    width: 20%;
-    background-color: aquamarine;
-    border: dotted 1px white;
+    width: calc(75%/4);
+    
+    
 
 }
 
@@ -319,7 +323,6 @@ hr{
 .container-footer-botton{
     width: 70%;
     height: 80%;
-    background-color: aquamarine;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -328,19 +331,47 @@ hr{
     line-height: 16px;
 }
 
+.ita{
+    size: 50%;
+    line-height: 15px;
+}
+
+span{
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.li-blue{
+    color: rgb(10, 119, 155);
+}
+
+ul{ 
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+    color: white;
+}
+
+.icons{
+    font-size: 12px;
+}
 .logo-footer{
 width: 15%;
 height: 16px;
-background-color: salmon;
-color: black;
-border: dotted 1px black;
 
+}
+
+.discord{
+    width: 95%;
+    height: 95%;
 }
 
 .bottone-footer{
     width: 15%;
     height: 16px;
-    background-color: salmon;
-    color: black;
-    border: dotted 1px black;
+   
 }

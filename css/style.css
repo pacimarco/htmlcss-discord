@@ -7,6 +7,7 @@
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;  
 }
+/* inizio header */
 
 header{
     height: 580px;
@@ -17,39 +18,31 @@ header{
 .header-top{
     height: 80px;
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .menu{  /* 25%logo-49%link-25%login-2x1px border*/
-    background-color: orange;
+    
     width: 70%;
     height: 60%;
     margin: auto;
-    border: dotted 1px black;
     display: flex;
-    
-    
 }
 
 .logo{ 
     width: 20%;
     height: 100%;
-    border-right: dotted 1px black;
     display: flex;
-    align-items: center;
     color: white;
-    
 }
 
 .link{
     width: 59%;
     height: 100%;
+    font-size: 12px;
     display: flex;
-    text-align: center;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -58,7 +51,6 @@ header{
 .login{
     width: 20%;
     height: 100%;
-    border-left: dotted 1px black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -201,7 +193,7 @@ background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin 0 auto;
+    margin:0 auto;
     margin-left: 15%;
     text-align: center;
 }
@@ -293,21 +285,19 @@ background-color: lightgray;
     display: flex;
 }
 
-.nav-1{
+.nav-1{    /*rivedere*/
 width: 25%;
 background-color: salmon;
 border: dotted 1px black;
 display: flex;
 flex-direction: column;
-align-content: space-between;
+justify-content: space-between;
+
 
 }
 
 .nav-2{
     width: calc(75%/4);
-    
-    
-
 }
 
 hr{
@@ -334,6 +324,7 @@ hr{
 .ita{
     size: 50%;
     line-height: 15px;
+    text-align: left;
 }
 
 span{
